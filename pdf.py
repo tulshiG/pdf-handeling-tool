@@ -15,7 +15,7 @@ def merge_pdf(pdf_list,output_path):
     with open(output_path,'wb') as out:
         pdf_writer.write(out)
         print(f"Merge Pdf saved as {output_path}")
-merge_pdf(['courseraPrompteng.pdf','obc.pdf'],'merge.pdf')
+#merge_pdf(['courseraPrompteng.pdf','obc.pdf'],'merge.pdf')
 #spliting pdf file to multiple pages
 def split_pdf(pdf_path,output_dir):
     pdf_reader=PyPDF2.PdfReader(pdf_path)
